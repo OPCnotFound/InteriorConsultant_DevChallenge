@@ -1,0 +1,16 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+}
+body {
+  padding: 0 4.75rem 0 4.81rem;
+  margin: 0;
+}
+#test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
