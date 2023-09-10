@@ -1,3 +1,6 @@
+import mainImage from "../assets/img/photo1.png";
+import ppImage from "../assets/img/photo2.png";
+
 const Page = () => {
   return (
     <div id="Page">
@@ -15,13 +18,13 @@ const Page = () => {
       <div className="pageLayout">
         <img
           className="pageLayout-image"
-          src="/src/assets/img/photo1.png"
+          src={mainImage}
           width="550 px"
           alt="mainImage"
         />
         <div className="pageLayout-autor">
           <div className="pageLayout-autorprofile">
-            <img src="/src/assets/img/photo2.png" alt="pp" />
+            <img src={ppImage} alt="pp" />
 
             <div className="pageLayout-autorinfo">
               <h5>Aliza Webber</h5>
