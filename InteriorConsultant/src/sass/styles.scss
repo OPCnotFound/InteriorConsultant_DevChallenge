@@ -1,0 +1,19 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 0 4.75rem 0 4.75rem;
+  margin: 0;
+  background: #181719;
+  color: white;
+}
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import "imports/navBar";
+@import "imports/footer";
+@import "imports/page";
+@import "imports/respSlideSelector";

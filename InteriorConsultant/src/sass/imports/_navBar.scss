@@ -1,0 +1,47 @@
+#NavBar {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  width: 100%;
+  box-sizing: content-box;
+  .navbar-brand {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Crimson Pro";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    margin: 0;
+  }
+
+  a {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  @media (min-width: 992px) {
+    #basic-navbar-nav {
+      position: static;
+      width: fit-content;
+
+      .navbar-nav {
+        position: static;
+
+        box-sizing: content-box;
+        width: 250px;
+        margin: 0;
+
+        //        gap: 5.8rem;
+      }
+    }
+  }
+}

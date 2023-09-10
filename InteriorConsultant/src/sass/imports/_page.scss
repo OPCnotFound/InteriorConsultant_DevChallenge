@@ -1,0 +1,104 @@
+#Page {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5rem 0 8rem;
+
+  .pageInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25.625rem;
+    h3 {
+      font-family: Lora;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    p {
+      padding-top: 2.5rem;
+      padding-bottom: 3rem;
+      margin: 0;
+      font-family: Montserrat;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      font-family: Montserrat;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      justify-items: center;
+      i {
+        font-size: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+  }
+
+  .pageLayout-image {
+    width: 46.0625rem;
+    height: 34.6875rem;
+    flex-shrink: 0;
+  }
+
+  .pageLayout-autor {
+    position: absolute;
+    bottom: -6.43rem;
+    right: 4.06rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25.625rem;
+    height: 11.8125rem;
+    padding-left: 1.62rem;
+    flex-shrink: 0;
+    background: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    img {
+      border-radius: 50%;
+      width: 3.125rem;
+      height: 3.125rem;
+      flex-shrink: 0;
+    }
+    p {
+      width: 17.9375rem;
+      font-family: Lora;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    &profile {
+      display: flex;
+
+      h5 {
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      h6 {
+        color: var(--Gray-3, #828282);
+        font-family: Montserrat;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+}
