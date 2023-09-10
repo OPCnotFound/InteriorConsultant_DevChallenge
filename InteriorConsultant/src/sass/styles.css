@@ -181,32 +181,49 @@ footer a {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-#Page .pageLayout-autor p {
-  width: 17.9375rem;
-  font-family: Lora;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 #Page .pageLayout-autorprofile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-#Page .pageLayout-autorprofile h5 {
+#Page .pageLayout-autorinfo {
+  padding-left: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+#Page .pageLayout-autorinfo h5 {
+  margin: 0;
   font-family: Montserrat;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-#Page .pageLayout-autorprofile h6 {
+#Page .pageLayout-autorinfo h6 {
+  margin: 0;
   color: var(--Gray-3, #828282);
   font-family: Montserrat;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
+}
+#Page .pageLayout-autor p {
+  margin-top: 1.35rem;
+  width: 17.9375rem;
+  font-family: Lora;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
   line-height: normal;
 }
 

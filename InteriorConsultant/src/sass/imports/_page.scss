@@ -72,19 +72,18 @@
       height: 3.125rem;
       flex-shrink: 0;
     }
-    p {
-      width: 17.9375rem;
-      font-family: Lora;
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-    }
 
     &profile {
       display: flex;
-
+    }
+    &info {
+      padding-left: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
       h5 {
+        margin: 0;
         font-family: Montserrat;
         font-size: 0.875rem;
         font-style: normal;
@@ -92,6 +91,7 @@
         line-height: normal;
       }
       h6 {
+        margin: 0;
         color: var(--Gray-3, #828282);
         font-family: Montserrat;
         font-size: 0.75rem;
@@ -99,6 +99,15 @@
         font-weight: 500;
         line-height: normal;
       }
+    }
+    p {
+      margin-top: 1.35rem;
+      width: 17.9375rem;
+      font-family: Lora;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
     }
   }
 }

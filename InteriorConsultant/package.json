@@ -1,9 +1,10 @@
 {
   "name": "interiorconsultant",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "homepage": "https://github.com/OPCnotFound/InteriorConsultant_DevChallenge",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

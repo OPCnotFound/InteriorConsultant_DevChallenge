@@ -15,15 +15,15 @@ const Page = () => {
       <div className="pageLayout">
         <img
           className="pageLayout-image"
-          src="../src/assets/img/photo1.png"
+          src="/src/assets/img/photo1.png"
           width="550 px"
           alt="mainImage"
         />
         <div className="pageLayout-autor">
           <div className="pageLayout-autorprofile">
-            <img src="../src/assets/img/photo2.png" alt="pp" />
+            <img src="/src/assets/img/photo2.png" alt="pp" />
 
-            <div>
+            <div className="pageLayout-autorinfo">
               <h5>Aliza Webber</h5>
               <h6>Interior designer</h6>
             </div>
