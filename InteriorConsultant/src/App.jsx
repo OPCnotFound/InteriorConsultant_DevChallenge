@@ -6,7 +6,6 @@ import RespSlideSelector from "./app/RespSlideSelector";
 function App() {
   return (
     <div>
-      <RespSlideSelector />
       <NavBar />
       <Page />
       <Footer />

@@ -30,17 +30,15 @@
 
   @media (min-width: 992px) {
     #basic-navbar-nav {
-      position: static;
-      width: fit-content;
-
+      display: flex;
+      justify-content: end;
       .navbar-nav {
-        position: static;
+        width: 100%;
+        width: max-content;
 
-        box-sizing: content-box;
-        width: 250px;
-        margin: 0;
+        box-sizing: border-box;
 
-        //        gap: 5.8rem;
+        gap: 3.8rem;
       }
     }
   }

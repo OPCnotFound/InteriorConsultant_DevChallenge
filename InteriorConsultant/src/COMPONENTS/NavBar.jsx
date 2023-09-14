@@ -9,19 +9,19 @@ class NavLink {
   }
 }
 const NavBarLinks = [
-  new NavLink("Home"),
-  new NavLink("Collection"),
-  new NavLink("About"),
-  new NavLink("Contacts"),
+  new NavLink("Home", "#home"),
+  new NavLink("Collection", "#home"),
+  new NavLink("About", "#home"),
+  new NavLink("Contacts", "https://www.youtube.com/shorts/SXHMnicI6Pg"),
 ];
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" id="NavBar">
+    <Navbar expand="lg" className="bg-body-tertiary container" id="NavBar">
       <Navbar.Brand href="#home">this interior</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+        <Nav>
           {NavBarLinks.map((link) => (
             <Nav.Link href={link.route} key={link.route}>
               {link.title}
